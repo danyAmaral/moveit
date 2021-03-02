@@ -35,6 +35,7 @@ const timeDefault = 0.1 * 60;
     clearTimeout(countdownTimeout);
     setTime(timeDefault);
     setIsActive(false);
+    setHasFinished(false);
   }
 
   useEffect(() => {
